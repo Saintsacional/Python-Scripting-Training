@@ -1,0 +1,41 @@
+Project Notes: 
+
+Como começar projeto
+
+Criar ambiente virtual:
+
+python3 -m venv venv
+
+Activar ambiente virtual:
+
+Linux:
+source venv/bin/activate
+
+Windows:
+.\venv\Scripts\activate
+
+Dependências
+
+pip install requests
+
+Create a requirements.txt File
+
+pip freeze > requirements.txt
+
+Desativar o Ambiente virtual
+
+deactivate
+
+---------------------------------------------------------------------------------------
+
+
+1)
+
+
+
+2)
+
+
+
+	3) Weather Data Fetcher 
+

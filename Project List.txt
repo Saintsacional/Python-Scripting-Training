@@ -1,0 +1,111 @@
+Project List
+
+Easy mode
+
+1. File Organizer (DONE)
+	• Objective: Create a Python script that automatically organizes files in a directory based on their type (e.g., images, documents, videos, etc.).
+	• Skills Practiced:
+		○ File system operations (moving, renaming, and deleting files).
+		○ Working with directories and files in Linux.
+		○ Using Python's os and shutil libraries.
+		○ You can run this script in Ubuntu using the terminal.
+How to do it:
+	• Use Python to read the files in a directory and sort them by file extension (e.g., .jpg, .pdf, .mp4).
+	• Create folders for each file type and move the files into the corresponding folder.
+2. Basic To-Do List Application (DONE)
+	• Objective: Develop a simple terminal-based to-do list application using Python that stores tasks in a text file.
+	• Skills Practiced:
+		○ Basic Python file handling (reading/writing to a file).
+		○ Working with terminal input/output.
+		○ Practice running Python scripts from the command line in Ubuntu.
+How to do it:
+	• Write functions to add, remove, and view tasks in a to-do list.
+	• Store the list of tasks in a text file so it persists after the program ends.
+	• Optionally, you can later extend this to use SQLite or JSON for storage.
+3. Weather Data Fetcher (DONE)
+	• Objective: Create a Python script that fetches weather information for a specified location using a public API like OpenWeatherMap.
+	• Skills Practiced:
+		○ Making HTTP requests with requests library.
+		○ Handling APIs and JSON data.
+		○ Storing or processing API data in a useful format.
+		○ Working with cron jobs on Ubuntu to schedule weather checks.
+How to do it:
+	• Use Python to send a GET request to the OpenWeatherMap API.
+	• Parse the JSON response to extract weather data (temperature, humidity, etc.).
+	• Optionally, set up a cron job to fetch weather data periodically and log it into a file.
+4. System Resource Monitor
+	• Objective: Build a simple Python script to monitor system resources (CPU, memory, disk usage) in Ubuntu and display them in the terminal.
+	• Skills Practiced:
+		○ Using Python’s psutil library to gather system data.
+		○ Using subprocess or psutil to interact with the system and retrieve system stats.
+		○ Outputting information in a clean and user-friendly format.
+How to do it:
+	• Install the psutil library (pip install psutil).
+	• Write a script that monitors system stats like CPU usage, RAM, disk space, etc.
+	• Run the script in the terminal to view live updates on your system resources.
+5. Simple Chatbot in Terminal
+	• Objective: Build a simple command-line chatbot in Python that can respond to basic queries from the user.
+	• Skills Practiced:
+		○ Working with Python’s string manipulation and conditionals.
+		○ Using loops and basic control flow in Python.
+		○ Enhancing user interaction via the terminal.
+How to do it:
+	• Define a set of responses to specific inputs (like "Hi", "How are you?").
+	• Use a loop to continually ask the user for input and respond with a predefined answer.
+	• Optionally, you can expand this with more complex responses or integrate an API like Dialogflow for more sophisticated conversation handling.
+6. Backup Script
+	• Objective: Write a Python script that creates backups of important directories or files on your system and stores them in a designated backup folder.
+	• Skills Practiced:
+		○ File handling and copying in Python.
+		○ Using Linux commands from Python.
+		○ Automating tasks using Python and scheduling them with cron.
+How to do it:
+	• Write a script that copies files from a source directory to a backup directory.
+	• Add timestamps to the backup folder names to prevent overwriting old backups.
+	• Use a cron job to run the script periodically to back up files automatically.
+7. Linux Process Killer
+	• Objective: Create a Python script that monitors running processes on Ubuntu and kills specific processes by their name or PID.
+	• Skills Practiced:
+		○ Using Python's os and psutil libraries.
+		○ Interacting with the system process list.
+		○ Sending signals to system processes to terminate them.
+How to do it:
+	• Use psutil to list all running processes and their details.
+	• Filter the list for specific processes.
+	• Send a signal to kill those processes using Python.
+8. Simple Log File Analyzer
+	• Objective: Write a Python script that reads log files (e.g., /var/log/syslog or /var/log/auth.log) and analyzes specific events or errors.
+	• Skills Practiced:
+		○ File reading and processing in Python.
+		○ String matching or pattern recognition (e.g., using regular expressions).
+		○ Using Python for system monitoring and logging.
+How to do it:
+	• Open a log file in Python and read it line by line.
+	• Search for specific log entries (e.g., errors, failed login attempts).
+	• Output the relevant information to the terminal or save it to a file for later analysis.
+9. Website Status Checker
+	• Objective: Build a Python script that checks if a website is up or down by sending HTTP requests.
+	• Skills Practiced:
+		○ Making requests using the requests library.
+		○ Handling HTTP status codes and processing the responses.
+		○ Running the script periodically on Ubuntu using cron jobs.
+How to do it:
+	• Use Python's requests library to check the status of a website (e.g., requests.get(url)).
+	• Print the HTTP status code (200, 404, etc.) and a message if the site is up or down.
+	• Optionally, log the results to a file or email notifications on failures.
+10. Automated File Downloader
+	• Objective: Write a Python script that automatically downloads files from a given URL.
+	• Skills Practiced:
+		○ Using requests or urllib to download files.
+		○ Automating tasks with Python.
+		○ File management and checking if a file already exists.
+How to do it:
+	• Use requests to download files from a URL.
+	• Store the downloaded file in a specific directory on your system.
+	• Optionally, check if the file already exists before downloading to avoid duplicates.
+Bonus: Setting Up Virtual Environments in Python
+	• Learn how to set up virtual environments in Python on Ubuntu to manage project dependencies.
+	• Practice using venv or virtualenv and ensure you are working with isolated Python environments.
+	• This will help you manage dependencies without conflicting with the system-wide Python packages.
+
+

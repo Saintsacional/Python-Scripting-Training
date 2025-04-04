@@ -8,12 +8,28 @@ git_commands = """
    - Set your email:
      git config --global user.email "youremail@example.com"
 
-2. Creating and Cloning Repositories
+2. CREATING and Cloning Repositories
    - Initialize a new Git repository:
      git init
    - Clone an existing repository:
      git clone <repository_url>
 
+->>>>>
+git init
+git add .
+git commit -m "Commit inicial"
+
+git remote add origin https://github.com/teu-username/nome-do-repo.git
+
+git branch -M main
+git push -u origin main
+
+
+Caso haja algum conflito inicial (ReadMe)
+
+git push --force origin main
+
+<<<<<-
 3. Checking Repository Status
    - Check the status of your files (modified, staged, etc.):
      git status

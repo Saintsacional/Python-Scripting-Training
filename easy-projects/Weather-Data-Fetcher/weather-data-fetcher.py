@@ -2,8 +2,8 @@ import requests
 import json
 
 # Define the API endpoint and your API key
-API_KEY = '#####'  # Replace with your OpenWeatherMap API key
-BASE_URL = '##########'
+API_KEY = <>  # Replace with your OpenWeatherMap API key
+BASE_URL = <>
 
 # Function to fetch weather data
 def get_weather(city):
